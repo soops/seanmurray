@@ -1,0 +1,39 @@
+{
+  "name": "seanmurray",
+  "authors": [
+    "Ethan Arterberry <ethanarterberry@gmail.com>"
+  ],
+  "description": "A Sean Murray dedicated waifu site for Aidan McMahan",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "waifu",
+    "no",
+    "man's",
+    "sky",
+    "sean",
+    "murray",
+    "enter",
+    "my",
+    "ass"
+  ],
+  "license": "MIT",
+  "homepage": "http://soops.github.io/seanmurray",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": ["dist/css/bootstrap.min.css", "dist/js/bootstrap.min.js"]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "seanmurray",
+  "version": "1.0.0",
+  "description": "A Sean Murray dedicated waifu website.",
+  "main": "index.html",
+  "dependencies": {
+    "wiredep": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "enter",
+    "me",
+    "sean",
+    "murrary"
+  ],
+  "author": "Ethan Arterberry",
+  "license": "MIT"
+}
