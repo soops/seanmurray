@@ -21,6 +21,7 @@ body, html {
 	background-size: 180px 101px;
 
 	-webkit-animation: zoomy 10 linear infinite;
+  -moz-animation: zoomy 10 linear infinite;
   animation: zoomy 10s linear infinite;
   animation-timing-function: ease-in-out;
 
@@ -40,12 +41,17 @@ body, html {
 }
 
 @-webkit-keyframes zoomy {
-    0% { transform: scale(1) }
-    50% { transform: scale(2) }
-    100% { transform: scale(1) }
+  0% { transform: scale(1) }
+  50% { transform: scale(2) }
+  100% { transform: scale(1) }
+}
+@-moz-keyframes zoomy {
+  0% { transform: scale(1) }
+  50% { transform: scale(2) }
+  100% { transform: scale(1) }
 }
 @keyframes zoomy {
-    0% { transform: scale(1) }
-    50% { transform: scale(2) }
-    100% { transform: scale(1) }
+  0% { transform: scale(1) }
+  50% { transform: scale(2) }
+  100% { transform: scale(1) }
 }
